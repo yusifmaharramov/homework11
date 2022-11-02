@@ -1,0 +1,68 @@
+body {
+  padding: 0px;
+  margin: 0 auto;
+}
+
+.demo {
+  width: 100%;
+  min-height: 200px;
+  background-color: yellow;
+  float: left;
+  margin: 5px 0px;
+}
+.r_navbar {
+  width: 100%;
+  min-height: 70px;
+  background-color: yellow;
+  float: left;
+  margin-bottom: 15px;
+}
+
+.rNav {
+  width: 100%;
+  min-height: 370px;
+  background-color: yellow;
+  float: left;
+}
+
+.rArticle {
+  width: 100%;
+  min-height: 370px;
+  background-color: yellow;
+  float: left;
+}
+
+.rAds {
+  width: 100%;
+  min-height: 370px;
+  background-color: yellow;
+  float: left;
+}
+
+.rFooter {
+  width: 100%;
+  min-height: 70px;
+  background-color: yellow;
+  float: left;
+  margin-top: 15px;
+}
+
+@media only screen and (max-width: 575px) {
+  .rNav,
+  .rArticle,
+  .rAds {
+    min-height: 100px;
+    margin: 10px 0px;
+  }
+}
+
+@media only screen and (min-width: 576px) {
+  .rArticle {
+    margin-left: 15px;
+  }
+
+  .rAds {
+    margin-left: 30px;
+    width: 90.7%;
+  }
+}
